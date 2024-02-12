@@ -1,0 +1,230 @@
+.body {
+  width: 100%;
+  padding: 0 7vmax;
+}
+/*banner's styling */
+.banner {
+  height: 55vh;
+  width: 100%;
+  background-image: url("../asset/online-courses-tutorials_52683-37861.webp");
+  background-size: cover;
+  background-position: top;
+  border-top: 1px solid white;
+  position: relative;
+  z-index: -1;
+}
+.banner .offer-card {
+  height: 35%;
+  width: 35%;
+  background-color: white;
+  margin-top: 9vh;
+  margin-left: 5vmax;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.banner .offer-card h1 {
+  font-family: Suisse Works;
+  font-size: 2.2vmax;
+}
+/*coursesHome's styling*/
+.courses-home {
+  width: 100%;
+}
+.courses-home h2 {
+  font-family: Suisse Works;
+}
+.courses-home .dets {
+  font-weight: 400;
+  font-size: 1.2vmax;
+}
+/* courseshomecontainerjs styling*/
+.courses-home .nav-link {
+  color: rgba(42, 42, 42, 0.808);
+  font-weight: 800;
+  margin-right: 1.5vmax;
+}
+.courses-home .nav-link:hover {
+  cursor: pointer;
+}
+.courses-container {
+  width: 100%;
+  padding: 1.5vmax 2vmax;
+  border: 1px solid rgba(105, 103, 103, 0.539);
+}
+.courses-container h3 {
+  font-weight: 700;
+  font-family: Gilroy;
+  color: black;
+  font-size: 1.6vmax;
+}
+.courses-container button {
+  background-color: white;
+  padding: 0.6vmax 0.5vmax;
+  color: rgba(22, 22, 22, 0.922);
+  border: 1px solid rgba(22, 22, 22, 0.922);
+  font-weight: 700;
+  font-size: 0.9vmax;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.courses-grid {
+  position: relative;
+  overflow-x: auto;
+  height: fit-content;
+}
+.courses-grid::-webkit-scrollbar {
+  display: none;
+}
+.course-card {
+  width: 15vmax;
+  margin-right: 1.3vmax;
+  flex-shrink: 0;
+}
+.courses-container .courses-grid .course-card .course-image {
+  height: 9vmax;
+  width: 100%;
+}
+.course-card .course-name {
+  font-family: Gilroy;
+  color: rgba(0, 0, 0, 0.912);
+  font-weight: 900;
+  font-size: 1vmax;
+  color: rgb(32, 32, 32);
+}
+.course-card .author {
+  font-size: 0.8vmax;
+  font-weight: 400;
+  margin-top: -0.3vmax;
+}
+.best-seller-tag {
+  font-size: 1.5vh;
+  background-color: rgb(180, 243, 86);
+  width: fit-content;
+  padding: 0.3vmax 0.4vmax;
+  font-weight: 800;
+  margin-top: 0.8vmax;
+}
+
+/* full width tag's styling */
+
+.full-width-tag {
+  margin-top: 20px;
+  width: 100%;
+  padding-left: 7vmax;
+  margin-top: 4vmax;
+  background-color: rgba(195, 195, 195, 0.172);
+  padding-top: 2vmax;
+  padding-bottom: 1.5vmax;
+}
+.full-width-tag i {
+  font-size: 1.3vmax;
+  background-color: rgba(187, 187, 187, 0.724);
+  padding: 0.3vmax 0.6vmax;
+  border-radius: 50%;
+}
+.full-width-tag h6 {
+  font-weight: 700;
+  color: rgb(22, 22, 22);
+  width: 60%;
+  margin-left: 1vmax;
+}
+/*course grid-container's styling*/
+.course-grid-container {
+  margin-top: 3.5vmax;
+}
+.course-grid-container h4 {
+  font-weight: 700;
+  font-family: Gilroy;
+  margin-bottom: 1vmax;
+  color: rgb(21, 20, 20);
+}
+
+/*category's styling */
+.categories {
+  width: 100%;
+  padding: 4vmax 7vmax;
+  padding-right: 15vmax;
+  background-color: rgba(201, 224, 227, 0.172);
+  margin-top: 6vmax;
+  color: rgb(21, 20, 20);
+}
+.categories button {
+  background-color: white;
+  padding: 0.2vmax 0.5vmax;
+  border: 1px solid black;
+  margin-top: 1vmax;
+}
+.categories button h6 {
+  font-weight: 700;
+  margin-top: 0.2vmax;
+  font-size: 0.9vmax;
+}
+.category-list {
+  margin-top: 1vmax;
+}
+.categories h4 {
+  font-weight: 700;
+}
+.category-list .topic {
+  margin-top: 2vmax;
+}
+.categories .category-list .topic .students {
+  font-size: 1vmax;
+  font-weight: 400;
+}
+.categories .category-list .topic .topic-name {
+  font-weight: 700;
+}
+.categories .category-list h5 {
+  font-family: Gilroy;
+}
+/*instructor's div styling */
+
+.instructor-image {
+  height: 24vmax;
+  width: 25vmax;
+}
+.instructor-text {
+  width: 40%;
+  padding: 5.5vmax;
+}
+.instructor-text h2 {
+  font-family: Suisse Works;
+  width: fit-content;
+}
+.instructor-text p {
+  font-size: 1.2vmax;
+  font-family: Gilroy;
+  font-weight: 400;
+
+  margin-top: 1vmax;
+}
+.instructor-text button {
+  background-color: rgb(34, 33, 33);
+  color: white;
+  font-family: Gilroy;
+  padding: 0.4vmax 0.3vmax;
+  padding-top: 0.6vmax;
+}
+/* testimonial's styling*/
+.testimonials {
+  background-color: rgba(216, 242, 236, 0.33);
+  padding: 2vmax;
+  margin-top: 4.5vmax;
+}
+.testimonials h3 {
+  font-family: Suisse Works;
+  font-size: 1.6vmax;
+}
+.testimonials .company-logo-container {
+  width: 8vmax;
+  margin: 0 3vmax;
+}
+.testimonials .company-logo-container .volkswagen-logo {
+  width: 3vmax;
+}
+.testimonials .company-logo-container .box-logo {
+  width: 4.5vmax;
+}

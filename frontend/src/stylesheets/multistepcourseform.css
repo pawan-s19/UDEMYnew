@@ -1,0 +1,43 @@
+.initiate-course {
+  height: 60%;
+  width: 100%;
+}
+
+.create-course-card {
+  background-color: white;
+  height: 10vmax;
+  width: 90%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.create-course-card button {
+  background-color: rgb(151, 12, 206);
+  border: none;
+  color: white;
+  font-weight: 900;
+  font-family: Gilroy;
+  font-size: 1.1vmax;
+}
+
+/* coursedetails styling */
+
+.course-details-child {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.course-details-child form label {
+  font-family: Gilroy;
+  font-weight: 700;
+}
+
+.course-details-child form input,
+.course-details-child form select {
+  padding: 0.8vmax;
+  margin-bottom: 1.5vmax;
+  border-radius: 0;
+  border: 1px solid black;
+}
+.course-details-child form label {
+  margin-bottom: 0.4vmax;
+}
+
+/*course third js's styling */

@@ -1,0 +1,32 @@
+.course-page .top {
+  width: 100%;
+  background-color: rgba(21, 21, 21, 0.954);
+  padding: 2vmax 15vmax;
+  color: white;
+}
+.course-page .top .course-info h2 {
+  font-weight: 700;
+}
+.course-preview-video {
+  background-color: white;
+  color: black;
+}
+.course-preview-video .video-container .video-thumbnail {
+  height: 10vmax;
+  width: 21vmax;
+}
+.course-page .center {
+  padding: 2vmax 15vmax;
+}
+
+.course-page .center .aim {
+  border: 1px solid rgba(102, 102, 102, 0.369);
+  padding: 1.5vmax;
+  font-family: Gilroy;
+  width: fit-content;
+
+  width: 48vmax;
+}
+.course-page .center .supreme-wrapper {
+  width: 48vmax;
+}

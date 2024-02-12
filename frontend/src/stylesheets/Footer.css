@@ -1,0 +1,25 @@
+.footer {
+  height: 17vmax;
+  background-color: rgba(27, 27, 29, 0.964);
+  color: white;
+  padding: 2vmax 3.5vmax;
+}
+.footer .footer-link-wrapper .footer-links {
+  margin-right: 10vmax;
+}
+.footer .footer-links h6 {
+  font-weight: 400;
+  font-family: Gilroy;
+  font-size: 0.9vmax;
+}
+.tops button {
+  height: fit-content;
+  background-color: transparent;
+  color: white;
+  padding: 0.3vmax;
+  padding-right: 3vmax;
+  border: 1px solid white;
+}
+.footer .btm {
+  margin-top: auto;
+}
